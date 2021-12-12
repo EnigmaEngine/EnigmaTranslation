@@ -17,6 +17,20 @@ Follow these steps to add a new language:
 3. Add the translations to the locale's folder.
 	- Be sure to translate text and, if able, images and audio assets.
 
+### Replacement characters
+
+Some special characters will cause translation to break. Use Firetongue's special replacement characters to deal with these situations:
+
+```
+<Q>  = Standard single quotation mark ( " )
+<LQ> = Fancy left quotation mark ( “ )
+<RQ> = Fancy right quotation mark ( ” )
+<C>  = Standard comma
+<N>  = Line break
+<T>  = Tab
+<RE>[$SOME_FLAG] = Replace with the value of the flag
+```
+
 ## Contributions
 
 Contributions to this project are HIGHLY encouraged.

@@ -9,7 +9,8 @@
     You can use different contexts to split XML files into categories, like "options" or "play"
   -->
 
-  <file id="data" value="data.tsv" />
+  <file id="base" value="base.csv" />
+  <file id="options" value="options.csv" />
 
   <!--
     The locale tag defines the language and country of each translation.
